@@ -1,0 +1,115 @@
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  body {
+    background-image: url("https://images.unsplash.com/photo-1497044793173-df560dfbe923?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBzYW5kJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-color: #cccccc;
+    color: white;
+   }
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: #15bcbc;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    background-color: #15bcbc;
+    clear: both;
+    position: relative;
+  }
+  
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #15bcbc;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #15bcbc;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  .content{
+    padding: 0 18px;
+    display: block;
+    overflow: visible;
+    height: auto;
+    transition: all 0.5s ease-in-out ;
+  }
+  .content.hidden{
+    padding: 0 18px;
+    display: none;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out ;
+  }
+ 
+ 
+  .visuallyhidden {
+    opacity: 0;
+  }
+ 
+ 
+ span {
+    display: inline-block;
+    vertical-align: middle;
+ }
+ 
+ 
+  .outer-line {
+    width: 45%;
+    border-bottom: 2px solid;
+  }
+ 
